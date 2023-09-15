@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  background-color: #6e6363;
+  height: 5vh;
+}
+
+nav img {
+  height: 4em;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 2;
+  list-style: none;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  margin: 3rem 0;
+  height: calc(98vh - (5vh + 2vh));
+}
+
+h1 {
+  margin: 1rem 1rem;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+}
+
+article p {
+  margin: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #6e6363;
+  color: white;
+  height: 2vh;
+}
